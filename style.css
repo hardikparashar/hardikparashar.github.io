@@ -12,6 +12,7 @@ background-repeat:no-repeat;
 ::selection {
     color: white;
     background: #2e79a7;
+}
 div.container
 {
   top:0;
