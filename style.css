@@ -8,7 +8,7 @@
 body
 {
 background-position: center;
-background-size:50%;
+background-size:45%;
 background-color:black;
 background-image:url('bg.jpg');
 -webkit-transition: background 6s; /* For Safari 3.1 to 6.0 */
@@ -38,7 +38,13 @@ margin-right:0;
 float:right;
 height:100%;
 width:45%;
-
+border-left:1px solid #111111; 
+}
+.navdock:hover
+{
+  border-left:1px solid #222222;  
+    -webkit-transition: border 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: border 0.3s;
 }
 div.navtab
 {
@@ -46,6 +52,7 @@ div.navtab
   margin-right:0;
   height:20%;
   margin-top:40%;
+  
 }
 div.maindock
 {
@@ -54,7 +61,7 @@ right:0;
 margin-left:0;
 float:left;
 height:100%;
-width:55%;
+width:54.93%;
 background-color:rgba(0, 0, 0, 0.86);
 }
 div.maintab,.playground,.resume,.blog,.sayhi
@@ -93,16 +100,14 @@ li a
     transition: background 0.3s;
   text-decoration:none;
   font-size:25px;
+     
 }
 li a:hover
 {
   -webkit-transition: background 0.3s; /* For Safari 3.1 to 6.0 */
     transition: background 0.3s;
-    background:#2e79a7; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, black,#2e79a7); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, black,#2e79a7); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, black,#2e79a7); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, black,#2e79a7); /* Standard syntax */
+    background:#222222; /* For browsers that do not support gradients */
+
 
 }
 
@@ -113,4 +118,5 @@ h1.name
   margin-top:70%;
   margin-right:9%;
   font-size:45px;
+opacity:0.8;    
 }
